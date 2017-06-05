@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+#hero {
+  display: relative; }
+
+.pd-logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 100px;
+  height: 100px; }
+
+.hamburger {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px; }
+
+.hero-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh; }
+
+#hero-img-1 {
+  background-image: url("../img/hero-img.jpg"); }
+
+#hero-img-2 {
+  background-image: url("../img/IMG_6767.jpg"); }
+
+#hero-img-3 {
+  background-image: url("../img/img_0221-11.jpg"); }
+
+#hero-img-4 {
+  background-image: url("../img/IMG_3723.jpg"); }
+
+#hero-img-5 {
+  background-image: url("../img/IMG_3818.jpg"); }
+
+#hero-img-6 {
+  background-image: url("../img/IMG_5955.jpg"); }
+
+#hero-img-7 {
+  background-image: url("../img/IMG_0916.jpg"); }
+
+.logo {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.1; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: 0.1; }
+  to {
+    opacity: 1; } }
