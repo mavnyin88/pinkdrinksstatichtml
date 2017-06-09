@@ -16,30 +16,22 @@ nav {
   height: 50px;
   position: relative; }
 
-@media only screen and (min-width: 40.063em) {
-  nav {
-    max-width: 73.125rem;
-    margin: 0 auto;
-    margin-bottom: 0; } }
-
 .pd-logo {
   width: 40px;
   position: absolute;
-  right: 15px;
+  right: 10px;
   top: 5px; }
 
 .not-local {
   width: 70px;
   position: absolute;
-  left: 15px;
+  left: 10px;
   top: 10px; }
 
-.hamburger {
-  font-size: 36px;
-  color: white;
+.hamburger-nav-wrapper {
   position: absolute;
-  right: 20px;
-  top: 20px; }
+  left: 50%;
+  top: 13px; }
 
 .hero-image {
   background-position: center center;
@@ -95,3 +87,9 @@ nav {
     opacity: 0.1; }
   to {
     opacity: 1; } }
+
+@media only screen and (min-width: 40.063em) {
+  nav {
+    max-width: 73.125rem;
+    margin: 0 auto;
+    margin-bottom: 0; } }

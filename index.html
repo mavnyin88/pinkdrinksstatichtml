@@ -5,6 +5,7 @@
 	<title>Pink Drinks - NYC</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/hamburgers.min.css">
 </head>
 <body class="hero-image" id="center-logo">
 	<header>
@@ -205,6 +206,15 @@
 				</svg>
 				
 			</div>
+			
+			<div class="hamburger-nav-wrapper">
+			<div class="hamburger hamburger--collapse">
+    			<div class="hamburger-box">
+      				<div class="hamburger-inner"></div>
+    			</div>
+  			</div>
+			</div>	
+
 			<div class="not-local">
 				<?xml version="1.0" encoding="utf-8"?>
 					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -247,5 +257,17 @@
 	</header>
 
 <script src="js/main.js"></script>
+<script>
+    var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+      forEach(hamburgers, function(hamburger) {
+        hamburger.addEventListener("click", function() {
+          this.classList.toggle("is-active");
+        }, false);
+      });
+    }
+  </script>
 </body>
 </html>
