@@ -1,4 +1,5 @@
 body{
+	font-family:Helvetica,Arial,sans-serif;
 	padding:0;
 	margin:0;
 }
@@ -11,25 +12,60 @@ header{
 	top:0;
 	left:0;
 	background:rgba(0,0,0,0.8);
+
 }
-nav{
-	height:50px;
+.nav{
+	height:55px;
+	transition:0.4s all ease-in-out;
 	position:relative;
 }
+.menu{
+	transition:0.5s all ease-in-out;
+	height:100vh !important;
+}
+ul.nav-menu{
+	margin:auto;
+	padding:0;
+	padding-left:50px;
+	li{
+		padding:0;
+		margin:0 0 10px 0;
+		list-style-type:none;
+		text-align:center;
+		a{
+			visibility:hidden;
+			font-size:18px;
+			letter-spacing:20px;
+			text-decoration:none;
+			color:#fff;
+			text-transform:uppercase;
+			transition:1s all ease-in-out;
+		}
+
+	}
+}
+
 .pd-logo{
 	width:40px;
 	position:absolute;
-	right:10px;
-	top:5px;
+	left:50%;
+	top:50%;
+	margin:-20px 0 0 -20px;
+}
+
+.pd-logo2{
+	width:40px;
 }
 .not-local{
-	width:70px;
 	position:absolute;
-	left:10px;
-	top:10px;
+	width:80px;
+	top: 9px;
+	left:9px;
+
+	
 }
 .hamburger-nav-wrapper{
-	position:absolute;left:50%;top:13px;
+	position:absolute;right:14px;top:14px;
 }
 .hero-image{
 	 // background: url('../img/hero-img.jpg');
