@@ -41,7 +41,6 @@ ul.nav-menu{
 			text-transform:uppercase;
 			transition:1s all ease-in-out;
 		}
-
 	}
 }
 
@@ -51,6 +50,11 @@ ul.nav-menu{
 	left:50%;
 	top:50%;
 	margin:-20px 0 0 -20px;
+	fill:#FFFFFF;
+	stroke:#FFFFFF;
+	stroke-width:2;
+	stroke-linecap:round;
+	stroke-miterlimit:10;
 }
 
 .pd-logo2{
@@ -105,6 +109,11 @@ ul.nav-menu{
 	font-family:'Helvetica';
 	text-align:center;
 }
+.pink{
+	fill:#e91e63;
+}
+
+
 .fade{
 	animation-name:fade;
 	animation-duration:2.5s;
